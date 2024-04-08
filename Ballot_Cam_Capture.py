@@ -6,7 +6,7 @@ cv.namedWindow("Python Webcam Screenshot App")
 img_counter = 0
 
 # Set your folder path here where you want to save images
-folder_path = 'your_folder_path'
+folder_path = 'images'
 
 while True:
     ret, frame = cam.read()
