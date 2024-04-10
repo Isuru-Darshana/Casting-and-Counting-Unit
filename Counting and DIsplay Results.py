@@ -49,7 +49,7 @@ def generate_results_csv(candidate_counts, total_votes):
             writer.writerow([candidate_name, count, f"{percentage:.2f}%"])
         writer.writerow(['Total Votes', total_votes, '100%'])
 
-#Display Results Garaphcially
+#Display Results Graphically
 def plot_results(candidate_counts, total_votes):
     candidates = ['A', 'B', 'C', 'D', 'Rejected']
     votes = [candidate_counts.get(candidate, 0) for candidate in candidates]
